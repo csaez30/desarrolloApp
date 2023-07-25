@@ -5,9 +5,11 @@ import java.util.Set;
 public class Ciudad {
 
     private String ciudad;
+    private int cp;
 
-    public Ciudad(String ciudad) {
+    public Ciudad(String ciudad,int cp) {
         this.ciudad = ciudad;
+         this.cp= cp;
 
     }
 
